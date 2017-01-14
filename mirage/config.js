@@ -9,7 +9,7 @@ export default function() {
                 attributes: {
                     publisher: 'Rockstar Games',
                     genre: 'Action',
-                    releaseDate: 2010,
+                    release: 2010,
                     image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg'
                 }
             }, {
@@ -18,7 +18,7 @@ export default function() {
                 attributes: {
                     publisher: 'Telltale Games',
                     genre: 'Casual',
-                    releaseDate: 2013,
+                    release: 2013,
                     image: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg'
                 }
             }, {
@@ -27,7 +27,7 @@ export default function() {
                 attributes: {
                     publisher: 'Bandai Namco Games',
                     genre: 'RPG',
-                    releaseDate: 2014,
+                    release: 2014,
                     image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg'
                 }
             }]
