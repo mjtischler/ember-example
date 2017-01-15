@@ -16,7 +16,7 @@ I'm Matt. My journey to becoming a developer has been long and strange, and I'd 
 
 Many thanks to my mama for her motor (i.e. work ethic) and to my father for his patience. If I ever grow to be half as good as you two then I'll have won at life.
 
-If you have any questions, criticism (of all types), or just want to send me a high-five you can email me at mjtischler@gmail.com.
+If you have any questions, criticisms (of all types), or just want to send me a high-five you can email me at mjtischler@gmail.com.
 
 ## Screenshots
 
