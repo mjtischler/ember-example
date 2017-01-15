@@ -2,19 +2,18 @@
 
 <article class="game">
     <a {{action 'toggleImageSize'}} class="image {{if isWide 'wide'}}">
-        <img src="{{game.image}}" alt="{{game.id}}">
+        <img src="{{game.image}}" alt="{{game.title}}">
 
         <small>View Larger</small>
     </a>
-
-    <h3>{{game.id}}</h3>
+    <h3>{{#link-to "games.show" game}}{{game.title}}{{/link-to}}</h3>
 
     <div class="detail publisher">
         <span>Publisher:</span> {{game.publisher}}
     </div>
 
     <div class="detail genre">
-        <span>Genre:</span> {{game.genre}}
+        <span>Genre:</span> {{game-player-type game.players}} - {{game.genre}}
     </div>
 
     <div class="detail release-date">

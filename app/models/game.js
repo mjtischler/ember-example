@@ -6,5 +6,6 @@ export default DS.Model.extend({
     genre: DS.attr(),
     image: DS.attr(),
     release: DS.attr(),
+    players: DS.attr(),
     description: DS.attr()
 });

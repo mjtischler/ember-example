@@ -6,25 +6,6 @@ moduleForComponent('game-listing', 'Integration | Component | game listing', {
     integration: true
 });
 
-test('it renders', function(assert) {
-
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.on('myAction', function(val) { ... });
-
-    this.render(hbs`{{game-listing}}`);
-
-    assert.equal(this.$().text().trim(), '');
-
-    // Template block usage:
-    this.render(hbs`
-        {{#game-listing}}
-          template block text
-        {{/game-listing}}
-    `);
-
-    assert.equal(this.$().text().trim(), 'template block text');
-});
-
 test('should toggle wide class on click', function(assert) {
     assert.expect(3);
 
