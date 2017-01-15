@@ -12,20 +12,6 @@
     {{/link-to}}
 </div>
 
-{{#each model as |game|}}
-    <article class="game">
-        <h3>{{game.title}}</h3>
-
-        <div class="detail publisher">
-            <span>Publisher:</span> {{game.publisher}}
-        </div>
-
-        <div class="detail genre">
-            <span>Genre:</span> {{game.genre}}
-        </div>
-
-        <div class="detail year-published">
-            <span>Year Released:</span> {{game.release}}
-        </div>
-    </article>
+{{#each model as |gameUnit|}}
+    {{game-listing game=gameUnit}}
 {{/each}}
