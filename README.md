@@ -1,4 +1,4 @@
-# psnow-ember-example by Matt Tischler (mjtischler@gmail.com)
+# psnow-ember-example by Matt Tischler
 
 This is my first attempt to create an app built with the [Ember.js framework](http://www.emberjs.com), and my second project utilizing the ES6 standard. This project was created using the tutorial found [here](https://guides.emberjs.com/v2.10.0/tutorial/ember-cli/).
 
@@ -12,9 +12,11 @@ My primary goals of the project are to:
 
 ## About Me
 
-I'm Matt. My journey to becoming a developer has been long and strange, and I'd be happy to share it with you over a glass of bourbon (or a cup of Earl Grey if that's more your style, Picard). I'm a huge PlayStation fan and a longtime gamer (Buck Rogers on the Coleco Adam, anyone? That game was on a CASSETTE TAPE, y'all). I'm constantly struggling to learn new technologies while working to not fall behind with what I've already learned, but I love writing code so the frustration tends to pay off in the end (with the occasional assist from several types of strong coffee).
+I'm Matt. My journey to becoming a developer has been long and strange, and I'd be happy to share it with you over a glass of bourbon (or a cup of Earl Grey if that's more your style, Picard). I'm a huge PlayStation fan and a longtime gamer (Buck Rogers on the Coleco Adam, anyone? That game was on a CASSETTE TAPE, y'all). I'm constantly struggling to learn new technologies while working to not fall behind with what I've already learned, but I love writing code so the frustration tends to pay off in the end (with the occasional assist from several cups of strong coffee).
 
 Many thanks to my mama for her motor (i.e. work ethic) and to my father for his patience. If I ever grow to be half as good as you two then I'll have won at life.
+
+If you have any questions, criticism (of all types), or just want to send me a high-five you can email me at mjtischler@gmail.com.
 
 ## Screenshots
 
