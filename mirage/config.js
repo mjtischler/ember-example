@@ -11,7 +11,7 @@ export default function() {
                 release: 2010,
                 players: 'Multiplayer 1-16',
                 image: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
-                description: 'Take John Marston on a journey of revenge across the old west.'
+                description: 'Take John Marston on a journey of revenge across the Old West.'
             }
         }, {
             type: 'games',
@@ -53,6 +53,6 @@ export default function() {
 
     // Find and return the provided game from our games list above
     this.get('/games/:id', function (db, request) {
-        return { data: games.find((rental) => request.params.id === rental.id) };
+        return { data: games.find((game) => request.params.id === game.id) };
     });
 }
