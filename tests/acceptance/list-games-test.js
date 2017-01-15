@@ -1,7 +1,7 @@
 import { test } from 'qunit';
 import moduleForAcceptance from 'psnow-ember-example/tests/helpers/module-for-acceptance';
 
-moduleForAcceptance('Acceptance | list-rentals');
+moduleForAcceptance('Acceptance | list-games');
 
 test('should redirect to games route', function (assert) {
     visit('/');
@@ -42,26 +42,26 @@ test('should link to contact information', function (assert) {
 test('should filter the list of games by genre.', function (assert) {
     visit('/');
 
-    fillIn('.list-filter input', 'action');
+    fillIn('.genre-filter input', 'action');
 
-    keyEvent('.list-filter input', 'keyup', 69);
+    keyEvent('.genre-filter input', 'keyup', 69);
 
     andThen(function () {
-      assert.equal(find('.listing').length, 1, 'should show 1 listing');
+      assert.equal(find('.game').length, 1, 'should show 1 listing');
 
-      assert.equal(find('.listing .genre:contains("Action")').length, 1, 'should contain 1 listing with genre Action');
+      assert.equal(find('.game .genre:contains("Action")').length, 1, 'should contain 1 listing with genre Action');
     });
 });
 
 test('should show details for a specific game', function (assert) {
-    visit('/rentals');
+    visit('/games');
 
     click('a:contains("Red Dead Redemption")');
 
     andThen(function() {
       assert.equal(currentURL(), '/games/red-dead-redemption', 'should navigate to show route');
 
-      assert.equal(find('.show-listing h2').text(), "Red Dead Redemption", 'should list game title');
+      assert.equal(find('.title').text(), "Red Dead Redemption", 'should list game title');
 
       assert.equal(find('.description').length, 1, 'should list a description of the game');
     });

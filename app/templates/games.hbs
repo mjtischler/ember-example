@@ -1,5 +1,3 @@
-{{outlet}}
-
 <div class="jumbo">
     <div class="right tomster"></div>
 
@@ -12,6 +10,4 @@
     {{/link-to}}
 </div>
 
-{{#each model as |gameUnit|}}
-    {{game-listing game=gameUnit}}
-{{/each}}
+{{outlet}}
