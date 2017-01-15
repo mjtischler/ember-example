@@ -1,0 +1,23 @@
+{{yield}}
+
+<article class="game">
+    <a {{action 'toggleImageSize'}} class="image {{if isWide 'wide'}}">
+        <img src="{{game.image}}" alt="{{game.id}}">
+
+        <small>View Larger</small>
+    </a>
+
+    <h3>{{game.id}}</h3>
+
+    <div class="detail publisher">
+        <span>Publisher:</span> {{game.publisher}}
+    </div>
+
+    <div class="detail genre">
+        <span>Genre:</span> {{game.genre}}
+    </div>
+
+    <div class="detail release-date">
+        <span>Release Date:</span> {{game.release}}
+    </div>
+</article>
